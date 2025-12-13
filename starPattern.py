@@ -1,4 +1,4 @@
-num=1
-while(num<5+1):
-    print(num)
-    num=num+1
+num=10
+while(num>=1):
+    print(num,end=",")
+    num=num-1
