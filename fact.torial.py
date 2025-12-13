@@ -1,4 +1,4 @@
-i=5
+i=int(input())
 fact=1
 while(i>0):
     fact=fact*i
