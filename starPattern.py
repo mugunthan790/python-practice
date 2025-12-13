@@ -1,5 +1,5 @@
-num=int(input("Lines:"))
-for i in range (num):
-    print()
-    for j in range(1,i+1):
+row=int(input("Enter rows:"))
+for i in range(1,row+1):
+    for j in range(i):
         print("*",end="")
+    print()
