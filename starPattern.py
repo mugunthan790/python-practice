@@ -1,5 +1,4 @@
-row=int(input("Enter rows:"))
-for i in range(1,row+1):
-    for j in range(i):
-        print("*",end="")
-    print()
+num=1
+while(num<5+1):
+    print(num)
+    num=num+1
