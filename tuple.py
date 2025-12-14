@@ -1,0 +1,11 @@
+a=(1,2,3,4)
+b=list(a)
+b[0]=11
+print(a)
+print(b)
+b.pop(0)
+print(b)
+b.insert(0,10)
+print(b)
+b.append(100)
+print(b)
