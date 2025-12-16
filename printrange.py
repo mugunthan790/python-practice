@@ -1,5 +1,6 @@
-def printrange(a):
-    for i in range (1,a+1):
+def printrange(r1,r2):
+    for i in range (r1,r2+1):
         print(i)
-b=int(input("Enter the range:"))
-printrange(b)
+b=int(input("Enter the Starting range :"))
+c=int(input("Enter Ending range : "))
+printrange(b,c)
