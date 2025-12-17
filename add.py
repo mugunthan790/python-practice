@@ -1,10 +1,10 @@
-def add(v,c):
-   return v+c
+def add(n1,n2):
+   return n1+n2
 a=int(input("Enter the A:"))
 b=int(input("Enter the B:"))
 c=int(input("Enter C:"))
-g=add(a,b)
-print(g*c)
+added=add(a,b)
+output=added*c
 
 
 
