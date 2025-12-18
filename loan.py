@@ -1,6 +1,6 @@
 salary=int(input("Enter the salary amount:"))
 age=int(input("Enter the age:"))
-if(salary>=20000 or age>=25):
+if(salary>=20000 or age>=21):
     print("you are eligible")
     lone=int(input("Enter the loan amount :"))
     if(lone<=50000):
