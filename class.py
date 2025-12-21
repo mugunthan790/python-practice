@@ -14,8 +14,10 @@ ramesh.drink="yes"
 suresh.drink="no"
 print(ramesh.name)
 print(F"Drink:{ramesh.drink}")
+print()
 print(suresh.name)
 print(f"Drink:{ramesh.drink}")
+print()
 ramesh.party()
 suresh.party()
 ramesh.beach()
