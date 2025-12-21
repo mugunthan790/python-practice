@@ -4,6 +4,6 @@ for i in range(1,6):
     a.append(num)
 print(a)
 sum=0
-for j in a:
-    sum=sum+i
-print(sum)
+for j in range(i):
+    sum=num+num
+print(num)
