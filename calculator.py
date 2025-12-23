@@ -15,7 +15,9 @@ class calculator():
         else:
             print("invalid option !")
         
+print()
 fun=calculator(10,20)
 fun.operation()
+print()
 fun2=calculator(2,10)
 fun2.operation()
