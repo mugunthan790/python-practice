@@ -1,4 +1,5 @@
-class pnf():
+try:
+ class pnf():
     def getdata(self):
         self.num=int(input("Enter the number:"))
         
@@ -10,6 +11,10 @@ class pnf():
         else:
             print(f"{self.num} is Negetive Number")
             
-find=pnf()
-find.getdata()
-find.process()
+ find=pnf()
+ find.getdata()
+ find.process()
+except Exception as e:
+    print(f"invalid option {e}")
+finally:
+    print("exit")
