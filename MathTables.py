@@ -1,4 +1,5 @@
-class tables:
+try: 
+ class tables:
     def getdata(self):
         self.n=int(input("Enter the number:"))
         
@@ -6,8 +7,12 @@ class tables:
         for i in range(1,11):
           print(f"{i}*{self.n}={i*self.n}")
           
-execute=tables()
-execute.getdata()
-execute.process()
+ execute=tables()
+ execute.getdata()
+ execute.process()
+except Exception as a:
+    print(f"invalid option {a}")
+finally:
+    print("exit")
         
             
