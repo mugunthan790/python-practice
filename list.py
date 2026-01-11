@@ -1,3 +1,4 @@
-list=[1,2,3,4]
-for lists in range(1,list):
-    print(list,end="")
+list=["apple","mango","orange"]
+for i in list:
+    print(i)
+    
