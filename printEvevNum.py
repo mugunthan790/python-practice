@@ -1,10 +1,10 @@
 try:
  class eve:
      def getdata(self):
-        self.n=int(input("enter the number:"))
+        self.num=int(input("enter the number:"))
         
      def process(self):
-        for i in range(1,self.n+1):
+        for i in range(1,self.num+1):
             if i %2==0:
                 print(i)
  num1=eve()
