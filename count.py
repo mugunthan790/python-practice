@@ -1,4 +1,5 @@
-class count():
+try:
+ class count():
     def getdata(self):
        self.num=int(input("enter the number:"))
     def process(self):
@@ -8,6 +9,8 @@ class count():
           print(self.i)
           self.count=self.count+1
         print(f"count={self.count}")
-count1=count()
-count1.getdata()
-count1.process()
+ count1=count()
+ count1.getdata()
+ count1.process()
+except Exception as a:
+    print(f"invalid input {a}")
