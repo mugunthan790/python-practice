@@ -1,7 +1,7 @@
 try:
  class LargestNumber:
     def getdata(self):
-        self.num1=int(input("Enter 1st number:"))
+        self.num1=int(input("enter 1st number:"))
         self.num2=int(input("Enter 2nd number:"))
         self.num3=int(input("Enter 3rd number:"))
         
