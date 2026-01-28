@@ -5,7 +5,7 @@ try:
     def process(self):
         self.p=self.v[::-1]
         if self.p==self.v:
-            print(f"{self.p} is palindrome")
+            print(f"{self.p} is Palindrome")
         else:
             print(f"{self.p} is not a Palindrome")
  value1=palindrome()
